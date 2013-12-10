@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer Online | Improve your efficiency using this Pomodoro Timer Online</title>
+    <meta name="description" content="This Pomodoro Timer is an Online Pomodoro Timer to help you accomplish the Pomodoro Technique. Using
+the Pomodoro method will help you increase your efficiency, in a way as recommended by the Pomodoro Technique.">
+    <meta name="author" content="Philip" />
+    <meta name="robots" content="index, follow" />
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <script src="lib/jquery-1.10.2.min.js"></script>
+    <script src="src/newscript.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class='header'>
+        <div class='title-container'>
+            <h1 class='title'>Pomodoro Timer Online</h1>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class='content'>
+        <div class='timer-container'>
+            <div class='timer'>
+                <h2 class='timer-display'>25:00</h2>
+            </div>
+            <div class='timer-button-container'>
+                <div>
+                    <button class='timer-button start' onclick="start()" >START</button>
+                </div>
+                <div>
+                    <button class='timer-button' onclick="pause()">PAUSE</button>
+                    <button class='timer-button' onclick="reset()">RESET</button>
+                </div>
+            </div>
+            <div class='button-container'>
+                <button class='set-time-button-highlighted' onclick="setTimerDuration(1500000)">Pomodoro!</button>
+                <button class='set-time-button' onclick="setTimerDuration(300000)">5 MINUTE BREAK</button>
+                <button class='set-time-button' onclick="setTimerDuration(900000)">15 MINUTE BREAK</button>
+            </div>
+        </div>
+        <div class='explanation-container'>
+            <div class='explanation'>
+                <div class='explanation-title'>
+                    <h2>What is the Pomodoro Technique&reg; ?</h2>
+                </div>
+                <p class='explanation-text'>The Pomodoro Technique&reg; is a method of time management created by Francesco Cirillo in the 1980's and is named after a tomato shaped
+                    kitchen timer - Pomodoro is the italian word for "Tomato". The technique helps to improve mental agility, productivity, efficiency and
+                    is designed to reduce the impact of internal and external interruptions on a persons focus. The process involes working
+                    for 25 minutes, then having a short break in the middle of these segments with a longer 15-30 minute break every 4 &apos;Pomodori&apos;. A &apos;Pomodori&apos;
+                    being one of the 25 minute intervals.
+                </p>
+                <div class='links'>
+                    <p>Wikipedia on the Pomodoro Technique&reg; :
+                        <a href='http://en.wikipedia.org/wiki/Pomodoro_Technique' target="_blank">http://en.wikipedia.org/wiki/Pomodoro_Technique</a>
+                    </p>
+                    <p>Official site on the Pomodoro Technique&reg; :
+                        <a href='http://pomodorotechnique.com/' target="_blank">http://pomodorotechnique.com/</a>
+                    </p>
+                </div>
+                <p class='affiliation'>
+                    Pomodoro Technique&reg; and Pomodoro&#0153; are registered and filed trademarks owned by Francesco Cirillo.
+                    Pomodorotimeronline.net is not affiliated by, associated with nor endorsed by Francesco Cirillo.
+                </p>
+                <p class='contact'>
+                    Copyright 2013 pomodorotimeronline.net
+                </p>
+                <p class='contact'>contact@pomodorotimeronline.net</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
