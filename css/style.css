@@ -58,6 +58,7 @@ h2{
     font-family: 'Pacifico', serif;
     font-size: 30px;
     color: #ffffff;
+    font-weight: normal;
 }
 
 .timer-container{
@@ -65,7 +66,7 @@ h2{
     /*border:1px solid red;*/
     height:80%;
     width:750px;
-    margin-bottom: 80px;
+    margin-bottom: 85px;
     position: relative;
 }
 
@@ -239,6 +240,13 @@ button:hover{
     border-top: 1px solid #efefef;
     padding-top: 30px;
     color: #b0b0b0;
+}
+
+.share-container{
+    /*border:1px solid red;*/
+    margin:auto;
+    width:187px;
+    margin-bottom: 70px;
 }
 
 .contact{
